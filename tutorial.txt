@@ -29,3 +29,5 @@ git branch # to get name of current working branch
 git checkout <branch name> to change to a existing branch, if a branch does not exist do the next stated command
 git checkout -b <branch name> # creating branch and simultaneously change the current working branch to the created branch 
 git diff <branch name>  #to find diff between two branches
+git fetch # to fetch all branches from remote git
+git branch -v -a # to seea fetched branches
