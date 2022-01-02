@@ -25,3 +25,6 @@ git init # to initialize a local directory as a github repo
 git remote add origin <ssh to github repo> # to adda github repo to a lecal git repo
 git remote -v # to get connecte3d github repo
 git push -u origin <branch name> # to set upstream , ie to set <branch name> as the default branch to push 
+git branch # to get name of current working branch 
+git checkout <branch name> to change to a existing branch, if a branch does not exist do the next stated command
+git checkout -b <branch name> # creating branch and simultaneously change the current working branch to the created branch 
